@@ -91,3 +91,78 @@ nav ul img {
 .sponsor {
   padding: 30px 0;
 }
+/* Collection Section */
+.collection h1 {
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 28px;
+  color: #3a3a3a;
+  text-align: center;
+}
+.collection-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+  padding: 47px 133px;
+}
+.product {
+  height: 476px;
+  background: #ffffff;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+  padding: 17px;
+}
+.product-img {
+  width: 300px;
+  height: 256px;
+}
+.product-description h2 {
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 28px;
+  color: #18191f;
+  margin-top: 16px;
+  margin-bottom: 6px;
+}
+.product-description h3 {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  color: rgba(0, 0, 0, 0.87);
+  margin-bottom: 10px;
+}
+.ratings {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.rate h4 {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 14px;
+  color: #5e6366;
+}
+
+.product-description p {
+  font-family: "Inter";
+  font-size: 14px;
+  font-weight: 700;
+  color: #787885;
+  padding-right: 119px;
+  margin-top: 10px;
+}
+.see-more {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  float: right;
+  padding: 0 133px;
+}
+.see-more h3 {
+  font-family: "Poppins";
+  font-weight: 700;
+  font-size: 16px;
+  color: rgba(224, 44, 109, 0.87);
+}
