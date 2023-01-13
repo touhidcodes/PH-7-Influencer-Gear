@@ -36,3 +36,48 @@ nav ul img {
   height: 32px;
   margin-top: 7px;
 }
+/* Influencer Section */
+.influencer-container {
+  display: flex;
+  align-items: center;
+  gap: 100px;
+  padding: 50px 120px;
+}
+.influencer-description h1 {
+  font-family: "Poppins";
+  font-weight: 700;
+  font-size: 52px;
+  color: #3a3a3a;
+  margin-bottom: 16px;
+}
+.influencer-description p {
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 16px;
+  color: #3a3a3a;
+  margin-bottom: 16px;
+}
+.influencer-btn {
+  width: 196px;
+  height: 44px;
+  background: #e02c6d;
+  border-radius: 41px;
+  border: 0;
+  display: flex;
+  align-items: center;
+}
+.influencer-btn p {
+  font-family: "Poppins";
+  font-weight: 700;
+  font-size: 16px;
+  color: #ffffff;
+  margin-right: 5px;
+  padding: 0px 20px;
+  margin-top: 15px;
+}
+.influencer-img {
+  background-image: url("../images/images/Circle\ design.svg");
+  background-size: cover;
+  width: 475px;
+  height: 475px;
+}
