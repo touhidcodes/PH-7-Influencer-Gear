@@ -5,8 +5,11 @@
 nav {
   padding: 70px 120px;
   display: flex;
-
+  align-items: center;
   justify-content: space-between;
+}
+.hamburger {
+  display: none;
 }
 nav h2 {
   font-family: "Poppins";
@@ -34,7 +37,7 @@ nav ul li a {
 nav ul img {
   width: 32px;
   height: 32px;
-  margin-top: 7px;
+  padding-left: 35px;
 }
 /* Influencer Section */
 .influencer-container {
@@ -202,4 +205,29 @@ nav ul img {
   font-size: 16px;
   color: #ffffff;
   padding: 0px 13px;
+}
+/* Footer */
+footer {
+  background: #0a0826;
+}
+.footer-container {
+  padding: 53px 570px;
+  text-align: center;
+}
+.footer-container h4 {
+  font-family: "Poppins";
+  font-weight: 700;
+  font-size: 20px;
+  color: #ffffff;
+}
+.footer-container p {
+  font-family: "Inter";
+  font-weight: 700;
+  font-size: 14px;
+  color: #d9dbe1;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+.social img {
+  margin: 0 12px;
 }
