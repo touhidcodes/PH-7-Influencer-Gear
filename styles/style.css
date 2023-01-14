@@ -112,6 +112,7 @@ nav ul img {
 }
 .product {
   height: 476px;
+  width: 300px;
   background: #ffffff;
   box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
   border-radius: 5px;
@@ -212,7 +213,7 @@ footer {
   background: #0a0826;
 }
 .footer-container {
-  padding: 53px 570px;
+  padding: 53px 480px;
   text-align: center;
 }
 .footer-container h4 {
