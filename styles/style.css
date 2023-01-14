@@ -231,3 +231,31 @@ footer {
 .social img {
   margin: 0 12px;
 }
+/* media  */
+/* Small Device */
+@media screen and (max-width: 768px) {
+  nav {
+    width: 100%;
+  }
+  .hamburger {
+    display: inline;
+  }
+  nav ul li {
+    display: none;
+  }
+  .influencer-container {
+    flex-direction: column-reverse;
+  }
+}
+/* large Device */
+@media screen and (min-width: 769px) and (max-width: 992px) {
+  nav {
+    width: 100%;
+  }
+  .hamburger {
+    display: inline;
+  }
+  nav ul li {
+    display: none;
+  }
+}
