@@ -40,11 +40,12 @@ nav ul img {
   padding-left: 35px;
 }
 /* Influencer Section */
-.influencer-container {
+.influencer {
   display: flex;
   align-items: center;
   gap: 100px;
   padding: 50px 120px;
+  margin: auto;
 }
 .influencer-description h1 {
   font-family: "Poppins";
@@ -80,7 +81,8 @@ nav ul img {
 }
 .influencer-img {
   background-image: url("../images/images/Circle\ design.svg");
-  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
   width: 475px;
   height: 475px;
 }
@@ -174,7 +176,6 @@ nav ul img {
   margin: 100px 165px;
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
   gap: 96px;
 }
 .featured-product h1 {
@@ -234,17 +235,54 @@ footer {
 /* media  */
 /* Small Device */
 @media screen and (max-width: 768px) {
+  main {
+    margin: auto;
+  }
   nav {
     width: 100%;
+    padding: 50px 0;
   }
   .hamburger {
     display: inline;
+    margin-right: 30px;
   }
   nav ul li {
     display: none;
   }
-  .influencer-container {
+  .influencer {
     flex-direction: column-reverse;
+    padding: 50px 100px;
+  }
+  .influencer-img {
+    width: 100%;
+    background-position: center;
+  }
+  .sponsor {
+    margin: auto;
+  }
+  .sponsors-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    padding: 100px 0px;
+  }
+  .collection {
+    height: 5004px;
+  }
+  .collection-container {
+    grid-template-columns: repeat(1, 1fr);
+    padding: 100px 0px;
+    margin: auto;
+    width: 329px;
+    height: 476px;
+  }
+  .featured-products-container {
+    flex-direction: column-reverse;
+  }
+  .footer-container {
+    width: 100%;
+    padding: 53px 0px;
+    margin: auto;
   }
 }
 /* large Device */
@@ -257,5 +295,31 @@ footer {
   }
   nav ul li {
     display: none;
+  }
+  .influencer {
+    flex-direction: column-reverse;
+    justify-content: center;
+  }
+  .sponsor {
+    margin: auto;
+  }
+  .sponsors-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+  }
+  .collection {
+    height: 4504px;
+  }
+  .collection-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .featured-products-container {
+    flex-direction: column-reverse;
+  }
+  .footer-container {
+    width: 100%;
+    padding: 53px 0px;
+    margin: auto;
   }
 }
